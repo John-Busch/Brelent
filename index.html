@@ -3,58 +3,98 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hi Sam!</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            text-align: center;
-            background-color: #f0f0f0;
-        }
-        header {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-        }
-        main {
-            padding: 20px;
-        }
-        footer {
-            background-color: #333;
-            color: #fff;
-            padding: 10px 0;
-            position: fixed;
-            bottom: 0;
-            width: 100%;
-        }
-        a {
-            color: #1e90ff;
-            text-decoration: none;
-        }
-        a:hover {
-            text-decoration: underline;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
 </head>
 <body>
-<header>
-    <h1>Welcome to My Website</h1>
-</header>
-<main>
-    <p>NEED TO DO: Add links (pictures?) to access the other services on the NAS. </p>
-    <p>Explore more:</p>
-    <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="blog.html">Blog</a></li>
-    </ul>
-    <a href="https://plex.brelent.com">
-        <img src="https://i.ibb.co/wYmH0wZ/plex.jpg" alt="plex" border="0">
-    </a>
-</main>
-<footer>
-    <p>&copy; 2024 My Website</p>
-</footer>
+
+
+    <div class="header">
+        <div class="logo">NAS</div>
+        <div class="header-links">
+            <a href="about.html">About</a>
+            <a href="resume.html">Resume</a>
+            <a href="contact.html">Contact</a>
+            <a href="blog.html">Blog</a>
+        </div>
+    </div>
+
+
+    <div class="body"> 
+        <div class="hero">
+            <div class="hero-text">
+                <h1 class="hero-maintext">Welcome to the Busch Network Access Drive</h1>
+                <p class="hero-subtext">This website is maintained by Johnny to his Network Access Drive.
+                    This website is maintained as an easy jumping point to the Network Access Drive. 
+                    The portals below do require an access key that I should have provided. 
+                    Links for employers can be found the upper right of the page.
+                </p>
+                <button class="top-button">Sign in</button>
+            </div>
+            <img class="placeholder" src="" alt="this is a placeholder for an image">
+        </div>
+        
+        <div class="bottom">  
+
+            <h2 style="text-align: center;">Common Apps</h2>
+            <div class="mid-section">
+        
+                <div class="mid-container">
+                    <a href="https://plex.brelent.com">
+                        <img src="/images/plex.jpg" alt="Plex">
+                    </a>
+                    <p>Movies and Shows</p>
+                </div>
+
+                <div class="mid-container">
+                    <a href="https://Nextcloud.brelent.com">
+                        <img src="images/NextCloud.webp" alt="NextCloud">
+                    </a>
+                    <p>Photos and Videos</p>
+                </div>
+
+                <div class="mid-container">
+                    <a href="https://HomeAssistant.brelent.com">
+                        <img src="images/HomeAssistant.jpg" alt="Home Assistant">
+                    </a>
+                    <p>Home Automation</p>
+                </div>
+
+                <div class="mid-container">
+                    <a href="https://github.com/John-Busch">
+                        <img src="images/github.png" alt="GitHub">
+                    </a>
+                    <p>Github Repos</p>
+                </div>
+
+                <div class="mid-container">
+                    <a href="Nas.local">
+                        <img src="images/unraid.jpg" alt="UnRAID">
+                    </a>
+                    <p>NAS Settings</p>
+                </div>
+            </div>
+    
+        <div class="quote-section">
+            <p class="quote">
+                Feel free to look around and reach out if you have any suggestions; I'm always open to feedback.
+            </p>
+            <h4 class="author">- Johnny</h4>
+        </div>
+    
+        <div class="sign-up">
+            <h4>Hey! Did you miss the sign in button?</h4>
+            <p>Sign in using the button to the right. You'll need your email and the provided key.</p>
+            <button class="button-bottom">Sign in</button>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        <p>&copy; John Busch 2024</p>
+    </div>
+
+
 </body>
+
 </html>
